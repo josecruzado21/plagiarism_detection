@@ -38,4 +38,7 @@ Two measures of similarity will be used as features to predict plagiarism: conta
 Containment is a measure of text similarity proposed by Andrei Broder in his paper "On the resemblance and containment of documents".
 The containment of two documents A and B is a number between 0 and 1 that contains the proportion of A's unique n-grams that are also in B.
 
+</br>
+<div style="text-align: center">
 <img src="https://latex.codecogs.com/svg.image?\inline&space;C_n(A,B)=\frac{|S(A,n)\:\cap\:S(B,n)|}{|S(A,n)|}" title="\inline C_n(A,B)=\frac{|S(A,n)\:\cap\:S(B,n)|}{|S(A,n)|}" />
+</div>
