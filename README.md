@@ -1,1 +1,30 @@
-# plagiarism_detection
+# Plagiarism Detection
+
+The purpose of this project is to train (and test) and algorithm for plagiarism detection based on the dataset created by [Clough and Stevenson (2011)](https://link.springer.com/article/10.1007/s10579-009-9112-1).
+
+Clough and Stevenson constructed a corpus consisting of answers in which plagiarism was simulated. The main benefit of this dataset is the inclusion of 4 different types of plagiarism: Near copy, Light revision, Heavy revision, Non-plagiarised. 
+
+The creation of this datased tackled the persistent problem in the plagiarism detection literature of null access to genuine examples of plagiarised work.
+
+## Background
+
+Plagiarism is an increasing problem for education institutions.  There exist some tools to help in its detection; however, testing its effectiveness is a challenge when there is no access to reliable data.
+
+The task of building tools to detect plagiarised work is not straightforward due to the problems of obtaining real examples of plagiarised text. As stated by Clough and Stevenson (2011), the main problems that hamper obtaining reliable plagiarism labelled data are:
+* Plagiarised text is not intended to be identified and plagiarists are unlikely to admit their act.
+
+* If a plagiarised text is detected, because of legally and ethics issues, it may not be freely available.
+
+## The Dataset
+
+The dataset used in this project is a modified version of the one create by Paul Clough and Mark Stevenson. The complete description of the data generation process is described in their [research article](https://link.springer.com/article/10.1007/s10579-009-9112-1) (Clough, P., Stevenson, M. Developing a corpus of plagiarised short answers, 2011)
+
+### Description of the dataset
+
+<li> The dataset contains several txt files whose characteristics are summarized in the file_information.csv file. </li>
+<li> The data file is composed of 100 text documents, out of which 5 contain the answers of the original source. Therefore, the participants contributed with 95 anwers, divided in 5 tasks and 5 plagiarism methods. </li>
+<li> The <b>File</b> column in the file_information.csv file contains the name of the txt file. </li>
+<li> The <b>Task</b> column contains one of the five learning task (A-E) that each txt answers. </li>
+<li> The <b>Category</b> column indicates if the participant was asked to use a Near copy (cut), Light revision (light), Heavy revision (heavy) or Non-plagiarised (non) method to answer the question. This column also contains the 'orig' category to reference the original texts on which participants based their answers</li>
+
+>For more details in the above mentioned points, please refer to the research document (pages 9-12)
