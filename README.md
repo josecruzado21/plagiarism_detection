@@ -40,5 +40,5 @@ The containment of two documents A and B is a number between 0 and 1 that contai
 
 </br>
 <p align="center">
-<img src="https://latex.codecogs.com/svg.image?\inline&space;C_n(A,B)=\frac{|S(A,n)\:\cap\:S(B,n)|}{|S(A,n)|}" title="\inline C_n(A,B)=\frac{|S(A,n)\:\cap\:S(B,n)|}{|S(A,n)|}" />
+<img src="https://latex.codecogs.com/png.image?\dpi{150}&space;\inline&space;C_n(A,B)=\frac{|S(A,n)\:\cap\:S(B,n)|}{|S(A,n)|}" title="\inline C_n(A,B)=\frac{|S(A,n)\:\cap\:S(B,n)|}{|S(A,n)|}" />
 </p>
