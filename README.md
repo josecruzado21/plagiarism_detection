@@ -46,3 +46,15 @@ Formally, containment is:
 </p>
 
 Where <img src="https://latex.codecogs.com/png.image?\dpi{100}&space;\inline&space;S(A,n)" title="\inline S(A,n)" /> and <img src="https://latex.codecogs.com/png.image?\dpi{100}&space;\inline&space;S(B,n)" title="\inline S(B,n)" /> represent the set of n-grams for document A and B respectively.
+
+The numerator is the intersection of unique n-grams between documents A and B. The denominator equals the number of unique n-grams in document A.
+
+
+### Longest Common Subsequence (LCS)
+
+LCS between two strings is the longest subsequence that is common to both strings. To be considered a subsequence, the words should not necessarily be in consecutive order.
+
+
+## Deployment in AWS
+
+The final model is trained and deployed in Amazon Sagemaker
